@@ -7,7 +7,7 @@
 ;;	 of variable names to their values.
 ;;
 ;; tags - functions
-;; restricted - 
+;; restricted - eval:resolve
 (ns offline-4clojure.p121
   (:use clojure.test))
 

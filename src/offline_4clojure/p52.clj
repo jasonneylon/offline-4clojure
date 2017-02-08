@@ -1,4 +1,4 @@
-;; Intro to Destructuring - Easy
+;; Intro to Destructuring - Elementary
 ;; Let bindings and function parameter lists support destructuring.
 ;; tags - destructuring
 ;; restricted - 
@@ -11,5 +11,5 @@
 
 (defn -main []
   (are [soln] soln
-(= [2 4] (let [[a b c d e f g] (range)] __))
+(= [2 4] (let [[a b c d e] [0 1 2 3 4]] __))
 ))
